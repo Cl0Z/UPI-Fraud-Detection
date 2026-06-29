@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "UPI Shield",
+    "slug": "upi-shield",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0b1326"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "UPI Shield needs camera access to scan QR codes for fraud detection."
+      }
+    },
+    "android": {
+      "package": "com.upishield.app",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b1326",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": ["CAMERA"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "UPI Shield needs camera access to scan QR codes for fraud detection."
+        }
+      ],
+      "expo-barcode-scanner",
+      "expo-font"
+    ]
+  }
+}
