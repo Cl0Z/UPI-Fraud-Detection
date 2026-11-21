@@ -14,6 +14,14 @@ Sentinel is an end-to-end intelligent fraud prevention system designed for UPI (
 
 ---
 
+## 📱 Application Preview
+
+| QR Scanner | Transaction Details | Suspicious Result (XAI) | Safe Result | History & Audit Log |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="assets/QRScan.png" width="200" alt="QR Scanner" /> | <img src="assets/Amount.png" width="200" alt="Transaction Details" /> | <img src="assets/Result.png" width="200" alt="Suspicious Result" /> | <img src="assets/ResultFalse.png" width="200" alt="Safe Result" /> | <img src="assets/History.png" width="200" alt="Scan History" /> |
+
+---
+
 ## 🏗 System Architecture & Workflow
 
 ```
